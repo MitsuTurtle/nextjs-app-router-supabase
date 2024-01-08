@@ -19,8 +19,8 @@ async function fetchBlog(blogId: string) {
       headers: new Headers({
         apikey: process.env.apikey as string,
       }),
-      cache: 'no-store',
-      // cache: 'force-cache',
+      // cache: 'no-store',
+      cache: 'force-cache',
     }
   )
   // if (!res.ok) {
