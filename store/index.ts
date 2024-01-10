@@ -3,9 +3,11 @@ import { create } from 'zustand'
 type EditedTask = {
   id: string
   title: string | null
+  // title: string
 }
 type LoginUser = {
   id: string | undefined
+  // id: string
   email: string | undefined
 }
 type State = {
